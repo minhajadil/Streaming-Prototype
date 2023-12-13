@@ -3,6 +3,23 @@ let cur_id = 1000 ;
 let descending = false ;
 
 
+const navbar=async()=>{
+
+    const response = await fetch(" https://openapi.programming-hero.com/api/videos/categories") ;
+    const jason = await response.json() ;
+    const data = jason.data ;
+    console.log(data);
+
+    const but= document.getElementById("navbuttons") ;
+
+    data.forEach((element)=>{
+        const butto = document.createElement('div') ;
+        butto.innerHTML=`<button onclick=shownormal(${element.category_id}) class="buttons"> ${element.category}</button>` ;
+        but.appendChild(butto) ;
+    })
+
+}
+
 
 
 
@@ -145,5 +162,5 @@ function showcategorydata(data)
 }
 
 }
-
+navbar() ;
 shownormal(1000) ;
