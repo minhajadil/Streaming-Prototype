@@ -1,0 +1,125 @@
+.nav-bar{
+   text-align: center;
+   align-items: center;
+   justify-content: space-between ;
+   display: flex; 
+   /* height: auto;
+   width: auto; */
+   margin: 50px;
+   margin-left: 80px;
+   padding-right: 50px;
+ 
+   
+
+}
+.sortby{
+    border-radius: 5px;
+    padding : 10px 20px ;
+    border:none ;
+    color : rgb(99, 66, 66) ;
+    font-family: Montserrat;
+     font-weight: bold;
+}
+
+.blog{
+    border-radius: 5px;
+    padding : 10px 20px ;
+    border:none ;
+    background-color: red;
+    color: white;
+    font-family: Montserrat;
+}
+
+.navigation-buttons{
+    display: flex;
+    gap :20px ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.buttons{
+    border-radius: 5px;
+    padding : 10px 20px ;
+    border:none ;
+    color : rgb(99, 66, 66) ;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+.buttons:hover{
+    border-radius: 5px;
+    padding : 10px 20px ;
+    border:none ;
+    color : white ;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-weight: bold;
+    background-color: red;
+}
+
+.cardcontainer{
+    height: 100px;
+   // padding-top :30px  ;
+
+}
+
+.cards{
+    gap : 10px ;
+
+}
+
+.image-section{
+
+    height: 230px ;
+    width: 350px;
+    border-radius: 10px;
+}
+.cardsproto {
+    position: relative;
+    display: inline-block;
+}
+
+.time{
+    position: absolute; 
+    right: 0px; 
+    top : 200px ;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color : white ;
+    border-radius: 5px ;
+    
+}
+
+.authph{
+    border-radius: 50px;
+    height: 50px ;
+    width: 50px;
+}
+
+.authortextdiv{
+    gap :40px ;
+    padding-left: 10px;
+
+}
+.cardsproto{
+    padding-left: 20px;
+}
+.name{
+    font-weight: bold ;
+    font-size: larger;
+}
+
+.cardgap{
+    padding: 30px;
+}
+
+.verifiedbatch{
+    
+    height: 20px;
+    text-align: center;
+}
+
+.faq{
+    margin: 50px;
+}
